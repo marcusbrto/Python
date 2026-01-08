@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f3cca9f-d666-4947-af73-6c59140b5dc3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/desafio011.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desafio012.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desafio013.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3f3cca9f-d666-4947-af73-6c59140b5dc3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,8 +64,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.desafio013">
-    <configuration name="desafio009" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.desafio006">
+    <configuration name="desafio006" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Tratando dados e fazendo contas" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,7 +80,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafio009.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafio006.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.desafio006" />
         <item itemvalue="Python.desafio013" />
         <item itemvalue="Python.desafio012" />
         <item itemvalue="Python.desafio011" />
         <item itemvalue="Python.desafio010" />
-        <item itemvalue="Python.desafio009" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +236,7 @@
       <updated>1767815562096</updated>
       <workItem from="1767815563349" duration="3890000" />
       <workItem from="1767831789589" duration="4033000" />
-      <workItem from="1767873302688" duration="3771000" />
+      <workItem from="1767873302688" duration="4072000" />
     </task>
     <servers />
   </component>
