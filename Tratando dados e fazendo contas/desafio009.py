@@ -10,4 +10,4 @@ print("{}x{}={}".format(numero,7,numero*7))
 print("{}x{}={}".format(numero,8,numero*8))
 print("{}x{}={}".format(numero,9,numero*9))
 print("{}x{}={}".format(numero,10,numero*10))
-
+print("=" * 30)
