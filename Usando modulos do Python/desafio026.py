@@ -1,0 +1,5 @@
+frase = str(input("Digite uma frase: ")).upper()
+contador = frase.count("A")
+print("Quantidade de letras A que aparece: ",contador)
+print("Aparece primeiro em {}".format(frase.find("A",0)+1))
+print("Aparece por último em {}".format(frase.rfind("A",contador)+1))
