@@ -1,0 +1,2 @@
+cid = str(input("Digite o nome da cidade: ")).strip()#strip para tirar os espaços no inicio e fim
+print(cid[:5].upper() == "SANTO") #o santo aqui tem que ser tudo maiusculo pq como o codigo transforma o nome da cidade me maiusculo se tiver diferente da sempre false

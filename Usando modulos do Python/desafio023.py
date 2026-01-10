@@ -1,5 +1,7 @@
-num = str(input("Digite um número entre 0 e 9999: "))
+n = int(input("Digite um número entre 0 e 9999: "))
+num = str(n)
 num = num.zfill(4)
+print("Analisando o npumero {}".format(num))
 print("Unidade: ",num[3])
 print("Dezena: ",num[2])
 print("Centena: ",num[1])
