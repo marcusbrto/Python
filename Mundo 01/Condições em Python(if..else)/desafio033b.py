@@ -5,5 +5,5 @@ n3 = int(input("Digite o terceiro número: "))
 maior = max(n1, n2, n3)
 menor = min(n1, n2, n3)
 
-print("O número {} é o maior!".format(maior))
-print("O número {} é o menor!".format(menor))
+print("\033[35mO número {} é o maior!\033[m".format(maior))
+print("\033[34mO número {} é o menor!\033[m".format(menor))

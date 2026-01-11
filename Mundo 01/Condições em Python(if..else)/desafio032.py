@@ -4,6 +4,6 @@ ano = int(input("Que ano quer analisar? Coloque 0 para ano atual: "))
 if ano == 0:
     ano = date.today().year
 if (ano % 4 == 0)and (ano % 100 != 0)or (ano % 400 == 0):
-    print("É um ano bissexto!")
+    print("\033[4;32mÉ um ano bissexto!\033[m")
 else:
-    print("Não é um ano bissexto!")
+    print("\033[7;31mNão é um ano bissexto!\033[m")

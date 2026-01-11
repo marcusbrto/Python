@@ -1,5 +1,5 @@
 numero = int(input("Digite um número: "))
 if numero % 2 == 0:
-    print("Seu número {} é par!".format(numero))
+    print("\033[35mSeu número {} é par!\033[m".format(numero))
 else:
-    print("Seu número {} é impar!".format(numero))
+    print("\033[36mSeu número {} é impar!\033[m".format(numero))

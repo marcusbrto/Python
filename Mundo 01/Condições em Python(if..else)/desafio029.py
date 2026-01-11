@@ -1,7 +1,7 @@
 velocidade = int(input("A qual velocidade você estava andando em km? "))
 if velocidade > 80:
-    print("Você foi multado!")
+    print("\033[1;31mVocê foi multado!\033[m")
     multa = (velocidade - 80) * 7
-    print("Valor: R${}".format(multa))
+    print("\033[4mValor: R${}\033[m".format(multa))
 else:
-    print("Você estava dentro do limite de velocidade, tenha um bom dia.")
+    print("\033[1;32mVocê estava dentro do limite de velocidade, tenha um bom dia\033[m.")
