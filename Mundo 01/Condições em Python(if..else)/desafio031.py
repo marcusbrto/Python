@@ -5,3 +5,7 @@ if distancia <= 200:
 else:
     valor = distancia * 0.45
     print("Valor: R${}".format(valor))
+
+    # versão simplificado
+'''preco = distancia * 0.50 if distancia <= 200 else distancia * 0.45
+print("Valor: R${}".format(preco))'''
