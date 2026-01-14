@@ -5,7 +5,7 @@ anos = int(input("Em quantos anos você vai pagar? "))
 tempo = anos * 12
 valor_mes = valor_casa / tempo
 
-if valor_mes > salario * 0.30:
+if valor_mes > salario * 0.30: #Se o valor por mes for maior do que 30% do salario o emprestimo é negado
     print(f"Emprestimo NEGADO, o valor mensal é de R${valor_mes:.2f} por {tempo} meses. ")
 else:
     print(f"Emprestimo APROVADO, o valor mensal é de R${valor_mes:.2f} por {tempo} meses. ")

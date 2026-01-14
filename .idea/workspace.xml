@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="409d16ab-2d6d-4674-add3-407f7569a013" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)/desafio040.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)/desafio041.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)/desafio042.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)/desafio043.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)/desafio044.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)/desafio045.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)/desafio036.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)/desafio036.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)/desafio037.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)/desafio037.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)/desafio039.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)/desafio039.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +98,7 @@
       <recent name="F:\Cursos\Python\Mundo 02\Condições em Python (if..elif)" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.desafio036">
+  <component name="RunManager" selected="Python.desafio039">
     <configuration name="desafio036" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
@@ -126,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="desafio042" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="desafio037" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,7 +138,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)/desafio042.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)/desafio037.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="desafio043" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="desafio038" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,7 +162,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)/desafio043.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)/desafio038.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,7 +171,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="desafio044" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="desafio039" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,7 +186,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)/desafio044.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)/desafio039.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.desafio039" />
+        <item itemvalue="Python.desafio038" />
+        <item itemvalue="Python.desafio037" />
         <item itemvalue="Python.desafio036" />
         <item itemvalue="Python.desafio045" />
-        <item itemvalue="Python.desafio044" />
-        <item itemvalue="Python.desafio043" />
-        <item itemvalue="Python.desafio042" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +250,7 @@
       <workItem from="1768263544108" duration="984000" />
       <workItem from="1768264979593" duration="1731000" />
       <workItem from="1768266744357" duration="232000" />
-      <workItem from="1768304627045" duration="6310000" />
+      <workItem from="1768304627045" duration="13205000" />
     </task>
     <servers />
   </component>
@@ -262,14 +259,14 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python$desafio042.coverage" NAME="desafio042 Coverage Results" MODIFIED="1768306592536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)" />
-    <SUITE FILE_PATH="coverage/Python$desafio039.coverage" NAME="desafio039 Coverage Results" MODIFIED="1768266918297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)" />
+    <SUITE FILE_PATH="coverage/Python$desafio039.coverage" NAME="desafio039 Coverage Results" MODIFIED="1768348602959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)" />
     <SUITE FILE_PATH="coverage/Python$desafio033.coverage" NAME="desafio033 Coverage Results" MODIFIED="1768165657642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mundo 01/Condições em Python(if..else)" />
     <SUITE FILE_PATH="coverage/Python$desafio028__1_.coverage" NAME="desafio028 (1) Coverage Results" MODIFIED="1768148433006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mundo 01/Condições em Python(if..else)" />
-    <SUITE FILE_PATH="coverage/Python$desafio036.coverage" NAME="desafio036 Coverage Results" MODIFIED="1768262913873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)" />
+    <SUITE FILE_PATH="coverage/Python$desafio036.coverage" NAME="desafio036 Coverage Results" MODIFIED="1768336139947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)" />
     <SUITE FILE_PATH="coverage/Python$desafio045.coverage" NAME="desafio045 Coverage Results" MODIFIED="1768309016777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)" />
     <SUITE FILE_PATH="coverage/Python$desafio034.coverage" NAME="desafio034 Coverage Results" MODIFIED="1768165518782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mundo 01/Condições em Python(if..else)" />
     <SUITE FILE_PATH="coverage/Python$desafio031.coverage" NAME="desafio031 Coverage Results" MODIFIED="1768165783266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mundo 01/Condições em Python(if..else)" />
-    <SUITE FILE_PATH="coverage/Python$desafio037.coverage" NAME="desafio037 Coverage Results" MODIFIED="1768265297804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)" />
+    <SUITE FILE_PATH="coverage/Python$desafio037.coverage" NAME="desafio037 Coverage Results" MODIFIED="1768337368205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)" />
     <SUITE FILE_PATH="coverage/Python$aula10.coverage" NAME="aula10 Coverage Results" MODIFIED="1768141474488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Condições em Python(if..else)" />
     <SUITE FILE_PATH="coverage/Python$desafio043.coverage" NAME="desafio043 Coverage Results" MODIFIED="1768307289524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)" />
     <SUITE FILE_PATH="coverage/Python$desafio028.coverage" NAME="desafio028 Coverage Results" MODIFIED="1768166092396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mundo 01/Condições em Python(if..else)" />
@@ -284,7 +281,7 @@
     <SUITE FILE_PATH="coverage/Python$desafio032.coverage" NAME="desafio032 Coverage Results" MODIFIED="1768165737126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mundo 01/Condições em Python(if..else)" />
     <SUITE FILE_PATH="coverage/Python$desafio044.coverage" NAME="desafio044 Coverage Results" MODIFIED="1768308400122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)" />
     <SUITE FILE_PATH="coverage/Python$aula11.coverage" NAME="aula11 Coverage Results" MODIFIED="1768160651996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mundo 01/Cores no Terminal" />
-    <SUITE FILE_PATH="coverage/Python$desafio038.coverage" NAME="desafio038 Coverage Results" MODIFIED="1768265597824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)" />
+    <SUITE FILE_PATH="coverage/Python$desafio038.coverage" NAME="desafio038 Coverage Results" MODIFIED="1768337571679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mundo 02/Condições em Python (if..elif)" />
     <SUITE FILE_PATH="coverage/Python$desafio030.coverage" NAME="desafio030 Coverage Results" MODIFIED="1768165823441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mundo 01/Condições em Python(if..else)" />
   </component>
 </project>
