@@ -5,13 +5,13 @@ valor3 = float(input("Digite o terceiro valor: "))
 #O valor de cada reta tem que ser MENOR que a soma de comprimento das outras duas retas
 if(valor1 < valor2 + valor3) and (valor2 < valor1 + valor3) and (valor3 < valor1 + valor2):
     print("\033[30;42mPode formar um triangulo.\033[m")
+    if valor1 == valor2 and valor2 == valor3 and valor3 == valor1:
+        print("\033[30;42mÉ um EQUILÁTERO.\033[m")
+    elif valor1 == valor2 or valor2 == valor3 or valor3 == valor1:
+        print("\033[30;42mÉ um ISÓSCELES\033[m")
+    else:
+        print("\033[30;42mÉ um ESCALENO.\033[m")
 else:
     print("\033[30;41mNão pode formar um triângulo.\033[m")
 
-if valor1 == valor2 and valor2 == valor3 and valor3 == valor1:
-    print("\033[30;42mÉ um equilátero.\033[m")
-elif valor1 == valor2 or valor2 == valor3 or valor3 == valor1:
-    print("\033[30;42mÉ um Isósceles\033[m")
-elif valor1 != valor2 and valor2 != valor3 and valor3 != valor1:
-    print("\033[30;42mÉ um escaleno.\033[m")
 
