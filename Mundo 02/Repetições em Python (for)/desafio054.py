@@ -9,4 +9,5 @@ for c in range (1, 8):
         menor = (menor + 1)
     else:
         maior = (maior + 1)
-print(f"No total foram {menor} pessoas menor de 18 anos e {maior} pessoas maiores de 18 anos.")
+print(f"No total foram 2010"
+      f"{menor} pessoas menor de 18 anos e {maior} pessoas maiores de 18 anos.")
