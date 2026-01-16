@@ -14,7 +14,7 @@ for c in range(1,5):
     print("=" * 40)
 
     if sexo == "F" and idade < 20: # aqui quantas mulheres são menor de 20 anos
-        mulher_menor = mulher_menor + 1
+        mulher_menor =+ 1
 
     elif sexo == "M" and idade > idade_velho: #nisso aqui ele pega a idade e nome do homem mais velho
         idade_velho = idade
@@ -22,7 +22,7 @@ for c in range(1,5):
 
 media = soma / 4 #calcula a media normal
 
-print(f'''A média de todas as idades é {media}.
+print(f'''A média de todas as idades é {media} anos
 Existem {mulher_menor} mulheres com menos de 20 anos.
 O nome do homem mais velho é {nome_velho} e sua idade é {idade_velho}''')
 
