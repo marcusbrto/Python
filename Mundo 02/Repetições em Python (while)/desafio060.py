@@ -1,7 +1,7 @@
 num = int(input("Digite um número para mostrar seu fatorial: "))
 
-fatorial = 1 #guarda o resultado
-c = 1 # contador
+fatorial = c = 1 # variavel fatorial guarda o resultado
+# C é contador
 #começa com 1 porque é um elemento neutro na multiplicação e fatorial nunca multiplica com 0
 
 while c <= num:#quando c chegar no valor de num ele para o ciclo
