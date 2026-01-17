@@ -2,11 +2,11 @@ n1 = int(input("Digite o primeiro valor: "))
 n2 = int(input("Digite o segundo valor: "))
 
 while True:
-    print("\033[1;31m[ 1 ] SOMAR\033[m")
-    print("\033[1;31m[ 2 ] MULTIPLICAR\033[m")
-    print("\033[1;31m[ 3 ] MAIOR\033[m")
-    print("\033[1;31m[ 4 ] NOVOS NÚMEROS\033[m")
-    print("\033[1;31m[ 5 ] SAIR\033[m")
+    print("""    \033[1;31m[ 1 ] SOMAR\033[m
+    \033[1;31m[ 2 ] MULTIPLICAR\033[m
+    \033[1;31m[ 3 ] MAIOR\033[m
+    \033[1;31m[ 4 ] NOVOS NÚMEROS\033[m
+    \033[1;31m[ 5 ] SAIR\033[m""")
     r = str(input("Qual a opção? "))
     if r == "1":
         soma = n1 + n2
