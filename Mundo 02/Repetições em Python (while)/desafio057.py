@@ -1,6 +1,6 @@
 c = 0
 while c != 1:
-    sexo = str(input("Digite seu sexo[F/M]: ")).strip().upper()
+    sexo = str(input("Digite seu sexo[F/M]: ")).strip().upper()[0]
     if sexo != "F" and sexo != "M":
         print("Sexo invalido, por favor digite apenas M ou F")
     else:

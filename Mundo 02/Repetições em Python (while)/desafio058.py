@@ -10,7 +10,6 @@ while vitoria != 1:
     if numero == numero_sorteio:
         print("\033[1;32mPARABÉNS, você venceu! :D\033[m")
         vitoria += 1
-        break
     else:
         print("\033[1;31mVocê errou! :(\033[m")
         contagem += 1
