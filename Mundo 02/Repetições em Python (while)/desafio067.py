@@ -1,14 +1,9 @@
 while True:
-    num = int(input("Digite um número para ver sua tabuada: "))
+    c = 0 #importante que a variavel seja declarada dentro da repetição para ele reiniciar toda vez
+    num = int(input("Quer ver a tabuada de qual valor? "))
     if num <= 0: break
-    else:
-        print(f"{num} x {num} = {num * 1}")
-        print(f"{num} x {num} = {num * 2}")
-        print(f"{num} x {num} = {num * 3}")
-        print(f"{num} x {num} = {num * 4}")
-        print(f"{num} x {num} = {num * 5}")
-        print(f"{num} x {num} = {num * 6}")
-        print(f"{num} x {num} = {num * 7}")
-        print(f"{num} x {num} = {num * 8}")
-        print(f"{num} x {num} = {num * 9}")
-        print(f"{num} x {num} = {num * 10}")
+    while c <= 10:
+        print(f"{num} x {c} = {num * c}")
+        c += 1
+
+print("Programa de tabuada encerrado, volte sempre!")

@@ -1,9 +1,9 @@
-import random
+from random import randint
 cont = 0
 while True:
     valor = int(input("Digite um valor: "))
     jogada = str(input("Qual sua jogada? Par ou Impar: ")).lower().strip()
-    sorteio = random.randint(1, 10)
+    sorteio = randint(1, 10)
     num = sorteio
     num += valor
     if num % 2 == 0:
