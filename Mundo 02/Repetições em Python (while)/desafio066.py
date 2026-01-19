@@ -6,4 +6,4 @@ while True:
     else:
         cont += 1
         soma += valor
-print(f"A soma dos {cont} foi {soma}!")
+print(f"A soma dos {cont} números foi {soma}!")
