@@ -10,6 +10,5 @@ if 3 in numt:
     print(f"O primeiro valor 3 está na posição {numt.index(3)+1}")
 print("Os números pares digitados foram: ")
 for n in numt: #para cada numero dentro da tupla
-    if n % 2 == 0: # se esse numero for par..
-        print(n, end=" ")
+    if n % 2 == 0: print(n, end="") # se esse numero for par..
 
