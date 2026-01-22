@@ -1,13 +1,15 @@
-numnove = 0
-for c in range(1,6):
-    num = int(input(f"Digite o {c} valor: "))
-    numtupla = (num)
-    if numtupla == 0:
-        numnove += 1
-    if numtupla % 2 == 0:
-        numpar = (numtupla)
-print("FIM")
-print(numtupla)
-#print(f"O número 9 apareceu {numtupla.count(9)} vezes")
-#print(f"O número três foi digitado primeiro na posição {numtupla.index(3)}")
-#print(f"Os números pares são: {numpar}")
+numnv = 0
+numt = () # tem que declarar a tupla tambem
+for c in range(0,4):
+    num = int(input("Digite um número: "))
+    numt = numt + (num,)
+    if num == 9:
+        numnv += 1
+print(f"O número 9 apareceu {numnv} vezes")
+if 3 in numt:
+    print(f"O primeiro valor 3 está na posição {numt.index(3)+1}")
+print("Os números pares digitados foram: ")
+for n in numt: #para cada numero dentro da tupla
+    if n % 2 == 0: # se esse numero for par..
+        print(n, end=" ")
+

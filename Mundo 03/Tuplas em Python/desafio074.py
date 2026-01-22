@@ -1,8 +1,7 @@
 from random import randint
-c = menor = maior = 0
+c = 0
 for c in range(0,5):
-    num_aleatorio = randint(1, 20)
-    num = (num_aleatorio)
+    num = randint(1, 20)
     c += 1
     if c == 1:
         menor = num
