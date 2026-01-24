@@ -1,5 +1,4 @@
-valores = list()
-maior = menor = 0
+valores = maior = menor = list()
 for c in range(0, 5):
     valores.append(int(input(f"Digite o {c + 1} valor: ")))
     num = valores[c]
