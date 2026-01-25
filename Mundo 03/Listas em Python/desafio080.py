@@ -15,4 +15,4 @@ for c in range(0, 5):
             lista.append(num)
 
 
-print(lista)
+print(f"Os valores digitados em ordem foram {lista}")
