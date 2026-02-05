@@ -7,3 +7,4 @@ def escreva(txt):
 
 
 escreva("marcola lindo")
+
