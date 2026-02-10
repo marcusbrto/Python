@@ -3,7 +3,8 @@ def leiaInt(msg):
         num = input(msg).strip()
         if num.isnumeric():
             return int(num)
-        print("\033[31mERRO! Digite um número inteiro válido.\033[m")
+        else:
+            print("\033[31mERRO! Digite um número inteiro válido.\033[m")
 
 # Programa principal
 n = leiaInt("Digite um número: ")

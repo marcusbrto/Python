@@ -1,5 +1,5 @@
 def ficha(jogador, gols):
-    print(f"O jogador {jogador} fez {gols} gols")
+    print(f"O jogador {jogador} fez {gols} gol(s)")
 
 nome = input("Digite o nome do jogador: ").strip()
 gols = input("Digite o número de gols: ")
