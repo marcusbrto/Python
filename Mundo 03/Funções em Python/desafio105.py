@@ -1,4 +1,10 @@
 def notas(*n, sit=False):
+    """
+    -> A Função para analisar notas de um aluno.
+    :param n: Notas de um aluno(aceita varias).
+    :param sit: valor opcional, indicando se deve ou não adicionar a situação
+    :return: dicionario com varias informações sobre a situação da turma.
+    """
     total = len(n)
     soma = sum(n)
     maior = max(n)
@@ -22,5 +28,5 @@ def notas(*n, sit=False):
     }
     return resp
 #Programa Principal
-resp = notas(5.5,2.5,1.5,sit=True)
+resp = notas(5.5,9.5,10,6.5,sit=True)
 print(resp)
