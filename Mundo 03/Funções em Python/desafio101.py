@@ -1,8 +1,7 @@
-from datetime import date
 
 def voto(ano):
-    atual = date.today().year
-    idade = atual - ano
+    from datetime import date
+    idade = date.today().year - ano
     if idade >= 18:
         return f'Com {idade} anos: VOTO OBRIGATORIO'
     elif idade >= 16:
