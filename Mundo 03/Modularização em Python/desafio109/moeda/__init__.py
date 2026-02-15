@@ -1,29 +1,19 @@
-def aumentar(valor, porcentagem,formatado=False):
-    if formatado:
-        return moeda(valor + (valor * porcentagem/100))
-    else:
-        return valor + (valor * porcentagem/100)
+def aumentar(valor = 0, porcentagem = 0,formatado=False):
+    res = valor + (valor * porcentagem/100)
+    return res if formatado == False else moeda(res)
 
-def diminuir(valor, porcentagem,formatado=False):
-    if formatado:
-        return moeda(valor - (valor * porcentagem/100))
-    else:
-        return valor - (valor * porcentagem/100)
+def diminuir(valor = 0, porcentagem = 0,formatado=False):
+    res = valor - (valor * porcentagem/100)
+    return res if formatado == False else moeda(res)
 
-def dobro(valor,formatado=False):
-    if formatado:
-        return moeda(valor * 2)
-    else:
-        return valor * 2
+def dobro(valor = 0,formatado=False):
+    res = valor * 2
+    return res if formatado == False else moeda(res)
 
-def metade(valor,formatado=False):
-    if formatado:
-        return moeda(valor / 2)
-    else:
-        return valor / 2
+def metade(valor = 1,formatado=False):
+    res = valor / 2
+    return res if formatado == False else moeda(res)
 
-def moeda(valor):
-    valorformatado = f"{valor:.2f}"
-    valorformatado = valorformatado.replace('.', ',')
-    return "R$" + valorformatado
+def moeda(valor = 0,moeda = 'R$'):
+    return f"{moeda}{valor:>.2f}".replace('.',',')
 
