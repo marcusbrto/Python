@@ -25,6 +25,6 @@ def resumo(valor = 0, porcetagem = 0,dimPorcetagem = 0,formatado=False):
     print(f"O dobro do preço: \t\t{moeda(dobro(valor))}")
     print(f"A metade do preço: \t\t{moeda(metade(valor))}")
     print(f"Com {porcetagem}% de aumento:\t\t{aumentar(valor,porcetagem, True)}")
-    print(f"Com {dimPorcetagem}% de desconto:\t{aumentar(valor, porcetagem, True)}")
+    print(f"Com {dimPorcetagem}% de desconto:\t{diminuir(valor, porcetagem, True)}")
     print("-"*40)
 
