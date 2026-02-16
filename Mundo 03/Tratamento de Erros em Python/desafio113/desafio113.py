@@ -1,4 +1,4 @@
-from modulo import*
+from pacote import*
 
 
 # Programa principal
