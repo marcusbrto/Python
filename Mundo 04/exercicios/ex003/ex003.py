@@ -17,11 +17,11 @@ class ContaBancaria:
 
     def sacar(self, valor):
         if valor > self.saldo:
-            print(f"Saque negado de R${valor:,.2f} na conta {self.id}: SALDO INSUFICIENTE")
+            print(f"\033[31mSaque negado\033[m de R${valor:,.2f} na conta {self.id}: SALDO INSUFICIENTE")
         else:
             self.saldo -= valor
-            print(f"Saque de R${self.saldo:,.2f} autorizado na conta {self.id}")
+            print(f"\033[32mSaque de R${self.saldo:,.2f} autorizado\033[m na conta {self.id}")
 
 c1 = ContaBancaria(112, "Marcola", 3000)
-c1.sacar(2000)
+c1.sacar(200)
 print(c1)
