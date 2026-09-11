@@ -1,0 +1,131 @@
+# ==============================
+# Python
+# ==============================
+
+# Bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribuição / empacotamento
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Instalação local
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Variáveis de ambiente / segredos
+.env
+.env.*
+!.env.example
+
+# Testes / cobertura
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ruff
+.ruff_cache/
+
+# Pylint
+.pylint.d/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs / Editores
+.vscode/
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*.swo
+tempCodeRunnerFile.py
+
+# Banco de dados local
+*.sqlite
+*.sqlite3
+*.db
+
+# Arquivos de configuração local
+.python-version
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Celery
+celerybeat-schedule
+
+# Secrets / chaves
+*.pem
+*.key
+
+# Type checking
+.pyre/
+pyre-report/
+
+# Ruff / Black
+.ruff_cache/
+
+# UV
+.uv/
+
+# Poetry
+poetry.lock
+
+# Hatch
+.hatch/
+
+# Local configuration
+local_settings.py
