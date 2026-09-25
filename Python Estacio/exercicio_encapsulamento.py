@@ -29,6 +29,13 @@ class Biblioteca:
             for livro in self.livros:
                 print(f'- {livro.titulo} por {livro.autor} (ISBN: {livro.isbn})')
 
+    def listar_livros_titulo(self, titulo):
+        for livro in self.livros:
+            if livro.titulo == titulo:
+                print(f"Livro encontrado: {livro.titulo}, por {livro.autor} (ISBN: {livro.isbn})")
+                return
+        print("Livro não encontrado!")
+
 # Testando as classes
 
 # Criando alguns livros
@@ -46,6 +53,9 @@ biblioteca.adicionar_livro(livro3)
 
 # Listando todos os livros na biblioteca
 biblioteca.listar_livros()
+
+#Buscando pelo titulo
+biblioteca.listar_livros_titulo("O Senhor dos Anéis")
 
 # Removendo um livro da biblioteca
 biblioteca.remover_livro('1122334455')
