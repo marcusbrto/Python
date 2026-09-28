@@ -31,4 +31,4 @@ class Conta:
          return("Transferencia Realizada")
 
    def gerarsaldo(self):
-      print(f"numero: {self.numero}\nsaldo: {self.saldo}")
+      print(f"numero: {self.numero}\nsaldo: {self.saldo:.2f}")
